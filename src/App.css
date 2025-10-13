@@ -1,38 +1,195 @@
-.App {
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuente y cuerpo */
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+  line-height: 1.6;
+}
+
+/* Contenedor general */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.avatar {
+  width: 200px;   /* ajusta según lo que necesites */
+  height: auto;
+  border-radius: 50%;  /* opcional si quieres que sea circular */
+   border: 4px solid #F29877;
+}
+
+/* Hero (pantalla completa) */
+.hero {
+  background: white;
+  color: rgb(2, 0, 0);
+  padding: 5rem 2rem;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero span {
+  color: #F29877;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: white;
+  color: #2f3d57;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #e0e0e0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #F29877;
+  font-weight: bold;
+}
+
+/* Secciones */
+.section {
+  padding: 4rem 0;
+}
+
+.bg-light {
+  background-color: #ffffff;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+/* Tarjetas de proyectos */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  color: #F29877;
+}
+
+/* Contacto */
+.email {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #F29877;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
   color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 4rem;
 }
 
-.App-link {
-  color: #61dafb;
+.avion-animado {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100px;
+  z-index: 1;
+  animation: volarZigZag 7s linear infinite;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.avion-animado img {
+  width: 100%;
+  height: auto;
+}
+
+/* Animación tipo zigzag */
+@keyframes volarZigZag {
+  0% {
+    transform: translateX(0) translateY(0);
   }
-  to {
-    transform: rotate(360deg);
+  10% {
+    transform: translateX(10vw) translateY(-30px);
+  }
+  20% {
+    transform: translateX(20vw) translateY(30px);
+  }
+  30% {
+    transform: translateX(30vw) translateY(-30px);
+  }
+  40% {
+    transform: translateX(40vw) translateY(30px);
+  }
+  50% {
+    transform: translateX(50vw) translateY(-30px);
+  }
+  60% {
+    transform: translateX(60vw) translateY(30px);
+  }
+  70% {
+    transform: translateX(70vw) translateY(-30px);
+  }
+  80% {
+    transform: translateX(80vw) translateY(30px);
+  }
+  90% {
+    transform: translateX(90vw) translateY(-30px);
+  }
+  100% {
+    transform: translateX(100vw) translateY(0);
   }
 }
