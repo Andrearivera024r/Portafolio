@@ -14,6 +14,11 @@ function App() {
     rel="stylesheet"
   />
   <header className="hero">
+     <div className="nubes">
+    <img src="nubes.png" alt="Nube" className="nube nube1" />
+    <img src="nubes.png" alt="Nube" className="nube nube2" />
+    <img src="nubes.png" alt="Nube" className="nube nube3" />
+  </div>
     <div className="container">
       <div className="avion-animado">
   <img src=" Aviónanimado.png" alt="Avión volando" />
@@ -54,27 +59,36 @@ function App() {
     <div className="projects">
       
       <div className="card">
-        <a href="https://github.com/ArianaSaenz/FrontEnd-Yumfull.git" target="_blank" rel="noopener noreferrer">
-          <img src="proyecto1.jpg" alt="YumFull" className="YumFull" />
-        </a>
+         <a 
+    href="https://github.com/ArianaSaenz/FrontEnd-Yumfull.git" 
+    target="_blank" rel="noreferrer"
+  >
+    <button className="YumFullButton">YumFull</button>
+  </a>
         <h3>Alimentación saludable y accesible</h3>
         <p><strong>Descripción:</strong> Brinda recetas personalizadas tomando referencia la situación fisica de cada persona.</p>
       </div>
 
       <div className="card">
-        <a href="https://github.com/Chris85234/becaSpot2.git" target="_blank" rel="noopener noreferrer">
-          <img src="proyecto2.jpg" alt="BecaSpot" className="project-img" />
-        </a>
-        <h3>Impulsa tu futuro profesional</h3>
+        <a 
+    href="https://github.com/Chris85234/becaSpot2.git" 
+    target="_blank" rel="noreferrer"
+  >
+    <button className="YumFullButton">BecaSpot</button>
+  </a>
+  <h3>Impulsa tu futuro profesional</h3>
         <p><strong>Descripción:</strong> Ofrece la oportunidad de conectar tu perfil profesional con empresas, programas, etc.</p>
       </div>
 
       <div className="card">
-        <a href="https://mi-sitio-ejemplo.com/proyecto3" target="_blank" rel="noopener noreferrer">
-          <img src="proyecto3.jpg" alt="Proyecto 3" className="project-img" />
-        </a>
-        <h3>Nosé</h3>
-        <p><strong>Descripción:</strong> Noséaún</p>
+        <a 
+    href="https://www.figma.com/design/GjvyU9MWQTnpM9tuLuLrBR/Trip-Scout?m=auto&t=QbSPr7woyrISfgSO-6" 
+    target="_blank" rel="noreferrer"
+  >
+    <button className="TripScout">TripScout</button>
+  </a>
+        <h3>Fomentar el turismo</h3>
+        <p><strong>Descripción:</strong> Busca fomentar y dar a conocer más sobre el turismo salvadoreño</p>
       </div>
 
     </div>
@@ -90,8 +104,25 @@ function App() {
       </a>
     </div>
   </section>
+  <section id="Estudios" className="section bg-light">
+  <div className="container">
+    <h2>Educación</h2>
+    <div className="projects">
+      
+      <div className="card">
+        <h3>Programa Empresarial ¡Supérate! Hilasal</h3>
+        <p> Ofrece educación complementaria en inglés, informática y valores, durante aproximadamente tres años, con el objetivo de fomentar valores, mejorar el acceso a la educación superior y al desarrollo personal, y profesional</p>
+      </div>
+
+      <div className="card">
+  <h3>Complejo Educativo René Toruño Steirner</h3>
+        <p> Ubicado en Ciudad Arce, La Libertad. El complejo es un centro educativo oficial de jornada matutina que ofrece niveles básicos y bachillerato técnico‑vocacional, con especialidades en mecánica industrial.</p>
+      </div>
+    </div>
+  </div>
+</section>
   <footer>
-    <p>© 2025 Andrea. Todos los derechos reservados.</p>
+    <p>© 2025 Andrea</p>
   </footer>
 
 
