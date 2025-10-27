@@ -1,11 +1,11 @@
-/* Reset */
+/* diseño */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Fuente y cuerpo */
+
 body {
   font-family: 'Montserrat', sans-serif;
   color: #333;
@@ -13,7 +13,7 @@ body {
   line-height: 1.6;
 }
 
-/* Contenedor general */
+
 .container {
   max-width: 1000px;
   margin: auto;
@@ -27,7 +27,7 @@ body {
    border: 4px solid #F29877;
 }
 
-/* Hero (pantalla completa) */
+
 .hero {
   background: white;
   color: rgb(2, 0, 0);
@@ -68,7 +68,7 @@ body {
   background-color: #e0e0e0;
 }
 
-/* Navbar */
+
 .navbar {
   background-color: white;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
@@ -91,7 +91,7 @@ body {
   font-weight: bold;
 }
 
-/* Secciones */
+
 .section {
   padding: 4rem 0;
 }
@@ -106,7 +106,7 @@ body {
   font-size: 2rem;
 }
 
-/* Tarjetas de proyectos */
+/* Tarjetas donde van los proyectos */
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -127,7 +127,7 @@ body {
   color: #F29877;
 }
 
-/* Contacto */
+
 .email {
   display: inline-block;
   margin-top: 1rem;
@@ -136,7 +136,7 @@ body {
   text-decoration: none;
 }
 
-/* Footer */
+
 footer {
   background-color: #333;
   color: white;
@@ -159,7 +159,7 @@ footer {
   height: auto;
 }
 
-/* Animación tipo zigzag */
+/* Animación para el avión*/
 @keyframes volarZigZag {
   0% {
     transform: translateX(0) translateY(0);
@@ -213,7 +213,7 @@ footer {
   opacity: 0.7;
 }
 
-/* Posicionamiento personalizado */
+/* Posición de las nubes */
 .nube1 {
   top: 10%;
   left: 5%;
