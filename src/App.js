@@ -49,7 +49,7 @@ function App() {
     <div className="container">
       <h2>Sobre mí</h2>
       <p>
-        Soy una persona sociable, dinámica y con gran facilidad para conectar con los demás. Disfruto trabajar en equipo y liderar grupos. Me motiva el aprendizaje constante y los desafíos que requieren creatividad y comunicación.
+        Soy una persona sociable, dinámica y con una gran facilidad para conectar con los demás. Disfruto trabajar en equipo, compartir ideas y aprender de las experiencias colectivas. Me considero una líder empática, capaz de motivar a los demás y fomentar un ambiente positivo y colaborativo. Me motiva el aprendizaje constante y los desafíos que implican salir de la zona de confort, especialmente aquellos que requieren creatividad, comunicación efectiva y pensamiento estratégico. Además, me gusta involucrarme en proyectos donde pueda aportar tanto mis habilidades sociales como mi entusiasmo por crecer personal y profesionalmente.
       </p>
     </div>
   </section>
@@ -66,7 +66,7 @@ function App() {
     <button className="YumFullButton">YumFull</button>
   </a>
         <h3>Alimentación saludable y accesible</h3>
-        <p><strong>Descripción:</strong> Brinda recetas personalizadas tomando referencia la situación fisica de cada persona.</p>
+        <p>Brinda recetas personalizadas tomando referencia la situación fisica de cada persona.</p>
       </div>
 
       <div className="card">
@@ -77,7 +77,7 @@ function App() {
     <button className="YumFullButton">BecaSpot</button>
   </a>
   <h3>Impulsa tu futuro profesional</h3>
-        <p><strong>Descripción:</strong> Ofrece la oportunidad de conectar tu perfil profesional con empresas, programas, etc.</p>
+        <p> Ofrece la oportunidad de conectar tu perfil profesional con empresas, programas, etc.</p>
       </div>
 
       <div className="card">
@@ -88,9 +88,32 @@ function App() {
     <button className="TripScout">TripScout</button>
   </a>
         <h3>Fomentar el turismo</h3>
-        <p><strong>Descripción:</strong> Busca fomentar y dar a conocer más sobre el turismo salvadoreño</p>
+        <p> Busca fomentar y dar a conocer más sobre el turismo salvadoreño.</p>
       </div>
 
+    </div>
+  </div>
+</section>
+
+<section id="Estudios" className="section bg-light">
+  <div className="container">
+    <h2>Educación</h2>
+    <div className="projects">
+      
+     <div className="card">
+  
+  <h3>Programa Empresarial ¡Supérate! Hilasal</h3>
+  <p>
+    Ofrece educación complementaria en inglés, informática y valores, durante aproximadamente tres años, 
+    con el objetivo de fomentar valores, mejorar el acceso a la educación superior y al desarrollo personal y profesional.
+  </p>
+</div>
+
+      <div className="card">
+      
+  <h3>Complejo Educativo René Toruño Steirner</h3>
+        <p> Ubicado en Ciudad Arce, La Libertad. El complejo es un centro educativo oficial de jornada matutina que ofrece niveles básicos y bachillerato técnico‑vocacional, con especialidades en mecánica industrial.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -104,25 +127,28 @@ function App() {
       </a>
     </div>
   </section>
-  <section id="Estudios" className="section bg-light">
-  <div className="container">
-    <h2>Educación</h2>
-    <div className="projects">
-      
-      <div className="card">
-        <h3>Programa Empresarial ¡Supérate! Hilasal</h3>
-        <p> Ofrece educación complementaria en inglés, informática y valores, durante aproximadamente tres años, con el objetivo de fomentar valores, mejorar el acceso a la educación superior y al desarrollo personal, y profesional</p>
-      </div>
 
-      <div className="card">
-  <h3>Complejo Educativo René Toruño Steirner</h3>
-        <p> Ubicado en Ciudad Arce, La Libertad. El complejo es un centro educativo oficial de jornada matutina que ofrece niveles básicos y bachillerato técnico‑vocacional, con especialidades en mecánica industrial.</p>
-      </div>
-    </div>
-  </div>
-</section>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <footer>
-    <p>© 2025 Andrea</p>
+    <p>© 2025 Andrea Rivera</p>
   </footer>
 
 
